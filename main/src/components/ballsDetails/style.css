@@ -1,0 +1,25 @@
+.ballsDiv{
+    height: 210px;
+    width: 50%;
+    display: flex;
+    float: right;
+}
+
+.ovalBall {
+    height: 5px;
+    width: 100px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 40px;
+    align-self: center;
+}
+
+.ball {
+    height: 5px;
+    width: 5px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 40px;
+    margin-left: 20px;
+    align-self: center;
+}

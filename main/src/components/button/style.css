@@ -1,0 +1,24 @@
+.buttonfalse{
+    width: 60px;
+    height: 30px;
+    color: #FFF;
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+    float: right;
+    margin: auto;
+    cursor: pointer;
+    background-color: #34363b;
+}
+
+.buttontrue{
+    width: 70px;
+    height: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid rgb(47, 91, 235);
+    float: right;
+    margin: auto;
+    cursor: pointer;
+    background-color: #34363b;
+}

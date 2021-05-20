@@ -1,0 +1,20 @@
+.title{
+    height: 150px;
+    color:  rgb(67, 67, 204);
+    font-size: 60px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+.subtitle{
+    height: 60px;
+    flex-direction: row;
+    display: flex;
+    color: #FFF;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
