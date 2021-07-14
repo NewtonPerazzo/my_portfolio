@@ -1,0 +1,17 @@
+.skillDiv{
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+    width: 300px;
+}
+
+.skill {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #3b3434;
+    margin: 5px;
+    cursor: pointer;
+}

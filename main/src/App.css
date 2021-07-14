@@ -1,8 +1,68 @@
 .App-content {
   background-color: #282c34;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .presentation {
-  background-color: green;
+  margin: 50px;
+}
+
+.infos {
+  width: 22%;
+  height: 220px;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border-color: chartreuse;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.about-me {
+  width: 60%;
+  margin: 30px;
+  float: right;
+  border-color: chartreuse;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+
+}
+
+.body-about-me {
+  color: #FFF;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.social-medias {
+  margin: 10px;
+  float: right;
+  font-size: 12px;
+}
+
+.img-social-media {
+  width: 20px;
+  height: 20px;
+}
+
+#animation1 {
+  animation: skillsMoving 1s infinite alternate;
+}
+
+#animation2 {
+  animation: skillsMoving 1s infinite alternate-reverse;
+}
+
+@keyframes skillsMoving {
+  100% {
+      transform: translate(3px, 1px)
+  }
 }

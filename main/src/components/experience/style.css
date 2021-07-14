@@ -45,13 +45,3 @@
     cursor: pointer;
     background-color: #34363b;
 }
-
-#animation1 {
-    animation: buttonMoving 1s infinite alternate-reverse;
-  }
-  
-  @keyframes buttonMoving {
-    100% {
-        transform: translate(3px, 1px)
-    }
-  }
