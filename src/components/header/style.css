@@ -2,14 +2,14 @@
     margin: 0;
 }
 
-.header{
-    background-color: #34363b;
-    height: 60px;
-    flex-direction: row;
+.header {
+    background: #34363b;
     display: flex;
-    border-bottom: 1px solid gray;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    color: rgb(6, 184, 255);
 }
 
 .titleHeader{
