@@ -1,27 +1,18 @@
-import { useState } from "react";
-import "./App.css";
-import Header from "./components/header";
-import Title from "./components/title";
-import Experience from "./components/experience";
-import SkillsAboutMe from "./components/skillsAboutMe";
-import Routes from "./routers";
+import Home from './components/home'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Experience from './components/experience';
+import Header from './components/header';
 
 function App() {
 
   return (
-      <div className="App">
+    <Router>
         <Header />
-        <div className="App-content">
-          <div className="presentation">
-            <Title />
-          </div>
-
-          <SkillsAboutMe/>
-          
-        
-          <Experience />
-        </div>
-      </div>
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/portfolio' component={Experience}/>
+        </Switch>
+    </Router>
   );
 }
 

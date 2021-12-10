@@ -1,3 +1,8 @@
+* {
+  background-color: #282c34;
+  max-height: 100%;
+}
+
 .App-content {
   background-color: #282c34;
   min-height: 100%;
@@ -18,7 +23,7 @@
 }
 
 .infos {
-  width: 100%;
+  width: 90%;
   height: 100%;
   border-color: chartreuse;
   border-width: 1px;
@@ -31,11 +36,14 @@
 .skills-div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .about-me {
   display: flex;
-  width: 100%;
+  width: 94%;
   border: 1px chartreuse solid;
   height: 100%;
   border-radius: 10px;
@@ -55,19 +63,23 @@
 
 .link {
   text-decoration: none;
-  color: #FFF;
-  font-size: 12px;
+  font-size: 16px;
 }
 
-.social-medias {
-  margin: 10px;
-  float: right;
-  font-size: 12px;
+.div-social-media {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-end;
+  justify-content: center;
+  color: #FFF;
 }
 
 .img-social-media {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
+  margin: 0 1rem;
 }
 
 .img-language {
@@ -80,12 +92,13 @@
 
 
 .img-newton {
-  width: 30%;
-  height: 80%;
+  width: 550px;
+  height: 550px;
   margin-right: 40px;
   padding: 10px;
   border: 0.5px solid chartreuse;
-  border-radius: 100%;
+  border-radius: 5%;
+  opacity: 60%;
 }
 
 #animation {
@@ -94,6 +107,6 @@
 
 @keyframes skillsMoving {
   100% {
-      transform: translate(0, 100%)
+      transform: translate(0, 20%)
   }
 }

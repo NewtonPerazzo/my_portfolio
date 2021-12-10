@@ -44,8 +44,14 @@ export default function Project(props) {
               src={arrowLeft}
               className="img-arrow-left"
               onClick={previous}
+              alt="img-arrow-left"
             />
-            <img src={arrowRight} className="img-arrow-right" onClick={next} />
+            <img 
+              src={arrowRight} 
+              className="img-arrow-right" 
+              onClick={next} 
+              alt="img-arrow-right"
+            />
             {props.imgDict.map((element, index) => {
               return (
                 <div
@@ -53,7 +59,7 @@ export default function Project(props) {
                   keys={index}
                 >
                   {index === current && (
-                    <img src={element} className="img-slide" />
+                    <img src={element} className="img-slide" alt="img-slide"/>
                   )}
                 </div>
               );

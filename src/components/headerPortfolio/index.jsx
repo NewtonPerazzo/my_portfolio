@@ -7,7 +7,7 @@ export default function HeaderPorFolio() {
       <div className="headerPortfolio">
         <div className="titleHeaderPortfolio">
           <p>{"Portfolio & Projects"}</p>
-          <img className="img-headerPortfolio" src={imgHeader} />
+          <img className="img-headerPortfolio" src={imgHeader} alt="img-headerPortfolio"/>
         </div>
       </div>
     </>
