@@ -1,17 +1,17 @@
 import imgHeader from "../../assets/coding.png";
 import SocialMedia from "../socialMedia";
-import { ImageHeader } from "./style";
+import { ImageHeader, HeaderContainer, TitleHeader } from "./style";
 
 export default function Header() {
   return (
-      <Header>
-        <div className="titleHeader">
+      <HeaderContainer>
+        <TitleHeader>
           <p>NEWTON PERAZZO</p>
           <ImageHeader src={imgHeader} alt="img-header" />
-        </div>
+        </TitleHeader>
         <div>
           <SocialMedia/>
         </div>
-      </Header>
+      </HeaderContainer>
   );
 }

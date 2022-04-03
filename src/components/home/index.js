@@ -7,10 +7,7 @@ function Home() {
   return (
       <>
         <Container>
-            <div className="presentation">
-                <Title />
-            </div>
-
+            <Title />         
             <SkillsAboutMe/>
         </Container>
     </>

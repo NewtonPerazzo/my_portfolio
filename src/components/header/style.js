@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
   height: 60px;
 `;
 
-export const TitleHeader = styled.p`
+export const TitleHeader = styled.div`
   color: rgb(6, 184, 255);
   font-size: 24px;
   width: 100%;

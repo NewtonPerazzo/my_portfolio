@@ -17,7 +17,14 @@ export const Button = styled.div`
         transform: translate(3px, 1px)
       }
     }
+
+    @keyframes skillsMoving {
+      100% {
+          transform: translate(0, 20%)
+      }
+    }
     animation: buttonMoving 1s infinite alternate-reverse;
+    animation: skillsMoving 1s infinite alternate-reverse;
   }
 `
 

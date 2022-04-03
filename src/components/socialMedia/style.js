@@ -14,3 +14,8 @@ export const SocialMediaImage = styled.img`
   width: 20%;
   height: 20%;
 `
+
+export const Link = styled.a`
+  text-decoration: none;
+  font-size: 16px;
+`

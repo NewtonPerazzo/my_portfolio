@@ -1,31 +1,7 @@
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 30px;
-  grid-gap: 70px;
-}
-
-.link {
-  text-decoration: none;
-  font-size: 16px;
-}
-
-
 .img-language {
   width: 70px;
   height: 70px;
   filter: grayscale(
     83%
     );
-}
-
-#animation {
-  animation: skillsMoving 1s infinite alternate-reverse;
-}
-
-@keyframes skillsMoving {
-  100% {
-      transform: translate(0, 20%)
-  }
 }
