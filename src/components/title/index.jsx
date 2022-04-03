@@ -1,13 +1,11 @@
-import "./style.css";
+import { TitleTop } from "./style.js";
 
 export default function Title() {
 
   return (
-    <>
-      <div className="title">
-        <p>FullStack Developer - Web Developer - Mobile Developer</p>
-      </div>
-    </>
+    <TitleTop>
+      <p>FullStack Developer - Web Developer - Mobile Developer</p>
+    </TitleTop>
   );
 }
 

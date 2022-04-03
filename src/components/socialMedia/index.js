@@ -1,13 +1,14 @@
 import imgInstagram from "../../assets/instagram.png";
 import imgLinkedin from "../../assets/linkedin.png";
 import imgEmail from "../../assets/email.png";
+import { SocialMediaContainer, SocialMediaImage } from "./style";
 
 
 export default function SocialMedia() {
 
 return(
   <div>
-    <div className="div-social-media">
+    <SocialMediaContainer>
         
         <a
           href="https://www.linkedin.com/in/newton-perazzo/"
@@ -15,7 +16,7 @@ return(
           className="link"
           rel="noreferrer"
         >
-       <img class="img-social-media" src={imgLinkedin} alt="img-linkedin"/>
+       <SocialMediaImage src={imgLinkedin} alt="img-linkedin"/>
         </a>
         <a
           href="mailto:perazzoneto99@hotmail.com"
@@ -23,7 +24,7 @@ return(
           className="link"
           rel="noreferrer"
         >
-        <img class="img-social-media" src={imgEmail} alt="img-email" />
+        <SocialMediaImage src={imgEmail} alt="img-email" />
         </a>
         <a
           href="https://www.instagram.com/perazzoneto/"
@@ -31,11 +32,9 @@ return(
           className="link"
           rel="noreferrer"
         >
-        <img class="img-social-media" src={imgInstagram} alt="img-instagram"/>
+        <SocialMediaImage src={imgInstagram} alt="img-instagram"/>
         </a>
-      </div>
-      
-     
+      </SocialMediaContainer>
   </div>
 )
 }

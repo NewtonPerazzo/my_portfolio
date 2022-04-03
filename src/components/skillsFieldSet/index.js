@@ -1,11 +1,13 @@
 import Skill from "../skill";
+import { FieldSetContainer, LegendFieldSet } from "../aboutMe/style";
+import { SkillContainer } from "./style";
 
 export default function FieldsetSkills() {
 
 return(
-    <fieldset fieldset className="infos">
-      <legend style={{ color: "chartreuse", fontSize: 18 }}>Skills</legend>
-      <div className="skills-div">
+    <FieldSetContainer>
+      <LegendFieldSet>Skills</LegendFieldSet>
+      <SkillContainer>
         <Skill
           name="Python"
           id="animation"
@@ -55,7 +57,7 @@ return(
           id="animation"
           color="yellow"
           />
-      </div>
-    </fieldset>
+      </SkillContainer>
+    </FieldSetContainer>
 )
 }

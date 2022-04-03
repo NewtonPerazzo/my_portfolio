@@ -1,5 +1,4 @@
-import "../../App.css";
-import Header from "../header";
+import { Container } from "./style.js";
 import Title from "../title";
 import SkillsAboutMe from "../skillsAboutMe";
 
@@ -7,13 +6,13 @@ function Home() {
 
   return (
       <>
-        <div className="App-content">
+        <Container>
             <div className="presentation">
                 <Title />
             </div>
 
             <SkillsAboutMe/>
-        </div>
+        </Container>
     </>
   );
 }

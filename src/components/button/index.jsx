@@ -1,13 +1,9 @@
-import { useState } from 'react';
-import './style.css';
+import { Button } from './style.js';
 
 export default function Button(props){
-    const [ativo, setAtivo] = useState(false)
     return(
-        <>
-            <div className={"button" + ativo} id={ativo ? "animation1" : null} onMouseEnter={() => setAtivo(true)} onMouseLeave={() => setAtivo(false)}>
-                <p>{props.title}</p>
-            </div>
-        </>
+        <Button>
+            <p>{props.title}</p>
+        </Button>
     )
 }

@@ -1,13 +1,15 @@
+import { FieldSetContainer, BodyAboutMe, LegendFieldSet } from "./style";
+
 export default function AboutMe() {
 const today = new Date();
 const age = Number(today.getFullYear()) - 1999;
 
 return(
-      <fieldset className="about-me">
-      <legend style={{ color: "chartreuse", fontSize: 18 }}>
+    <FieldSetContainer>
+      <LegendFieldSet>
         About Me
-      </legend>
-      <div class="body-about-me">
+      </LegendFieldSet>
+      <BodyAboutMe>
         <p> Hello, there!</p>
         <p> My name is Newton Perazzo and I'm {age} years old. </p>
         <p> I'm from Feira de Santana, Bahia, Brazil. </p>
@@ -23,7 +25,7 @@ return(
           Thank you for your visit! Feel free to send me a message on my
           social networks!
         </p>
-      </div>
-    </fieldset>
+      </BodyAboutMe>
+    </FieldSetContainer>
 )
 }
