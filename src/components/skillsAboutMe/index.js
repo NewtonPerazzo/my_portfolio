@@ -1,12 +1,10 @@
-import imgNewton from "../../assets/newton.jpeg";
 import AboutMe from "../aboutMe";
 import FieldsetSkills from "../skillsFieldSet";
 import { 
   Container,
   ContainerGrid, 
   Content, 
-  ParagraphCustom, 
-  ProfileImage, 
+  ParagraphCustom,
   WelcomeColor, 
   WordCustom } 
 from "./style";
@@ -16,25 +14,32 @@ export default function SkillsAboutMe() {
   return(
    <Container>
       <ContainerGrid>
-        <FieldsetSkills />
-
         <Content>
           <WelcomeColor>
-            <ParagraphCustom>Welcome</ParagraphCustom>
-            to my portfolio.<br/>
-            I'm <ParagraphCustom>Newton Perazzo</ParagraphCustom>
-            Let's <WordCustom>code?</WordCustom>
+            <p><ParagraphCustom>Welcome</ParagraphCustom></p>
+            <p>to my portfolio.</p>
+            <p>I'm <ParagraphCustom>Newton Perazzo</ParagraphCustom></p>
+            <p>Let's <WordCustom>code?</WordCustom></p>
           </WelcomeColor>
         </Content>
-          
-        <AboutMe /> 
+        
+        <div style={{justifyItems: 'center', alignItems: 'center', width: '100%', height: '100%'}}>
+          <FieldsetSkills />
+        </div>
+        
+
+        <div>
+          <AboutMe /> 
+        </div>
 
       </ContainerGrid>
-      <ProfileImage 
-        src={imgNewton}
-        alt="Newton"
-      />
       
+        {/* <div>
+          <ProfileImage 
+            src={imgNewton}
+            alt="Newton"
+          />
+        </div> */}
     </Container>
   )
 }

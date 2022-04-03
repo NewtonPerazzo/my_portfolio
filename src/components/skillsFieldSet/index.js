@@ -1,6 +1,6 @@
 import Skill from "../skill";
-import { FieldSetContainer, LegendFieldSet } from "../aboutMe/style";
-import { SkillContainer } from "./style";
+import {  LegendFieldSet } from "../aboutMe/style";
+import { SkillContainer, FieldSetContainer } from "./style";
 
 export default function FieldsetSkills() {
 

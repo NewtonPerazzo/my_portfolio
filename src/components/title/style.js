@@ -9,5 +9,6 @@ export const TitleTop = styled.p`
     text-align: center;
     justify-content: center;
     align-self: center;  
-    margin: 15px;
+    padding: 15px;
+    border-bottom: 0.5px solid chartreuse;
 `

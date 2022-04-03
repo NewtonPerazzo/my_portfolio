@@ -5,12 +5,10 @@ import SkillsAboutMe from "../skillsAboutMe";
 function Home() {
 
   return (
-      <>
-        <Container>
-            <Title />         
-            <SkillsAboutMe/>
-        </Container>
-    </>
+    <Container>
+      <Title />         
+      <SkillsAboutMe/>
+    </Container>
   );
 }
 

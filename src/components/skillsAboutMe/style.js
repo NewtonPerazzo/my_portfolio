@@ -2,29 +2,33 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-  display: flex;
-  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin-top: 40px;
 `;
+
 export const ContainerGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 30px;
-  /* grid-gap: 10px; */
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 30px;
+  grid-gap: 20px;
 `;
 
 export const Content = styled.div`
   width: 100%;
-  padding: 30px;
   justify-content: center;
+  display: flex;
 `;
 
-export const WelcomeColor = styled.p`
+export const WelcomeColor = styled.div`
   font-weight: bold;
   color: #FFF;
   font-size: 28px;
 `;
 
-export const ParagraphCustom = styled.p`
+export const ParagraphCustom = styled.a`
   color: rgb(6, 184, 255);
   font-size: 38px;
 `;
@@ -37,11 +41,9 @@ export const WordCustom = styled.a`
 `;
 
 export const ProfileImage = styled.img`
-  width: 550px;
-  height: 550px;
-  margin-right: 40px;
-  padding: 10px;
+  width: 10%;
+  height: 100%;
+  padding: 3px;
   border: 0.5px solid chartreuse;
-  border-radius: 5%;
-  opacity: 60%;
+  border-radius: 100%;
 `;
