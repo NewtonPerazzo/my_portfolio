@@ -6,7 +6,6 @@ export const FieldSetContainer = styled.fieldset`
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
 `;
 
 export const LegendFieldSet = styled.legend`
@@ -16,4 +15,5 @@ export const LegendFieldSet = styled.legend`
 
 export const BodyAboutMe = styled.div`
   color: #FFF;
+  display: block;
 `;

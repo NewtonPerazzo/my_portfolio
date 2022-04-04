@@ -16,18 +16,12 @@ export const TitleHeader = styled.p`
   color: rgb(6, 184, 255);
   font-size: 24px;
   display: flex;
-  justify-content: center;
   align-items: center;
 `;
 
 export const ImageHeader = styled.img`
   width: 40px;
   height: 30px;
-`;
-
-export const ButtonsHeader = styled.div`
-  display: flex;
-  align-items: center;
 `;
 
 export const Content = styled.div`

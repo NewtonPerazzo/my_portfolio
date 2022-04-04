@@ -6,8 +6,8 @@ import imgNewton from "../../assets/newton.jpeg";
 
 export default function Header() {
   return (
-      <HeaderContainer>
-          <ProfileImage src={imgNewton}/>
+    <HeaderContainer>
+        {/* <ProfileImage src={imgNewton}/> */}
           <TitleHeader>
             <p>NEWTON PERAZZO</p>
             <ImageHeader src={imgHeader} alt="img-header" />

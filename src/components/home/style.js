@@ -3,8 +3,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #282c34;
-  min-height: 100vh;
-  min-width: 100vw;
+  overflow-x: hidden;
+  max-width: 100%;
+  height: 100vh;
 `
 
   

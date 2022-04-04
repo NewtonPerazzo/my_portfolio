@@ -23,23 +23,14 @@ export default function SkillsAboutMe() {
           </WelcomeColor>
         </Content>
         
-        <div style={{justifyItems: 'center', alignItems: 'center', width: '100%', height: '100%'}}>
+        <div>
           <FieldsetSkills />
         </div>
-        
 
         <div>
           <AboutMe /> 
         </div>
-
       </ContainerGrid>
-      
-        {/* <div>
-          <ProfileImage 
-            src={imgNewton}
-            alt="Newton"
-          />
-        </div> */}
     </Container>
   )
 }
