@@ -5,6 +5,23 @@ export const FieldSetContainer = styled.fieldset`
   border-radius: 10px;
   justify-content: center;
   align-items: center;
+
+  #animation1 { 
+    animation: skillsMoving 0.8s infinite alternate;
+   } 
+  #animation { 
+    animation: skillsMoving2 0.8s infinite alternate;
+   } 
+  @keyframes skillsMoving { 
+    100% { 
+      transform: translate(3px, 1px)
+    }
+  }
+  @keyframes skillsMoving2 { 
+    100% { 
+      transform: translate(1px, 3px)
+    }
+  }
 `;
 
 export const SkillContent = styled.div`

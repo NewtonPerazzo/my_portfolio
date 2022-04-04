@@ -8,11 +8,13 @@ export default function Header() {
   return (
     <HeaderContainer>
         {/* <ProfileImage src={imgNewton}/> */}
-          <TitleHeader>
-            <p>NEWTON PERAZZO</p>
-            <ImageHeader src={imgHeader} alt="img-header" />
+          <TitleHeader id="animationHeader">
+            <p style={{fontSize: 32}}>NEWTON PERAZZO</p>
+            <ImageHeader id="animationHeader" src={imgHeader} alt="img-header" />
           </TitleHeader>
-          <SocialMedia/>
+          <div>
+            <SocialMedia id="animationHeader" />
+          </div>
       </HeaderContainer>
   );
 }

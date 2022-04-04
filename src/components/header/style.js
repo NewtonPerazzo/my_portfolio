@@ -10,6 +10,15 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+
+  #animationHeader { 
+    animation: headerRender 0.8s alternate;
+   } 
+  @keyframes headerRender { 
+    100% { 
+      transform: translate(50px)
+    }
+  }
 `;
 
 export const TitleHeader = styled.p`
