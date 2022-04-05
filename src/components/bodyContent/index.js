@@ -8,6 +8,7 @@ import {
   WelcomeColor, 
   WordCustom } 
 from "./style";
+import { i18n } from '../../utils/translate/i18n';
 
 
 export default function SkillsAboutMe() {
@@ -16,10 +17,10 @@ export default function SkillsAboutMe() {
       <ContainerGrid>
         <Content>
           <WelcomeColor>
-            <p><ParagraphCustom>Welcome</ParagraphCustom></p>
-            <p>to my portfolio.</p>
-            <p>I'm <ParagraphCustom>Newton Perazzo</ParagraphCustom></p>
-            <p>Let's <WordCustom>code?</WordCustom></p>
+            <p id="animation1"><ParagraphCustom>{i18n.t('welcome')}</ParagraphCustom></p>
+            <p id="animation2">{i18n.t('toMyPortfolio')}</p>
+            <p id="animation3">{i18n.t("iAm")} <ParagraphCustom>Newton Perazzo</ParagraphCustom>.</p>
+            <p id="animation4">{i18n.t("lets")} <WordCustom>{i18n.t("code")}</WordCustom></p>
           </WelcomeColor>
         </Content>
         

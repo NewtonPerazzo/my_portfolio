@@ -24,6 +24,42 @@ export const Content = styled.div`
   width: 100%;
   justify-content: center;
   display: flex;
+
+  #animation1 { 
+    animation: animation1 1s alternate;
+  } 
+  @keyframes animation1 { 
+    0% { 
+      transform: translate(60%)
+    }
+  }
+
+  #animation2 { 
+    animation: animation2 2s alternate;
+  } 
+  @keyframes animation2 { 
+    0% { 
+      transform: translate(60%)
+    }
+  }
+
+  #animation3 { 
+    animation: animation3 3s alternate;
+  } 
+  @keyframes animation3 { 
+    0% { 
+      transform: translate(60%)
+    }
+  }
+
+  #animation4 { 
+    animation: animation4 4s alternate;
+  } 
+  @keyframes animation4 { 
+    0% { 
+      transform: translate(60%)
+    }
+  }
 `;
 
 export const WelcomeColor = styled.div`

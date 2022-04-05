@@ -13,10 +13,10 @@ export const HeaderContainer = styled.header`
 
   #animationHeader { 
     animation: headerRender 0.8s alternate;
-   } 
+  }
   @keyframes headerRender { 
-    100% { 
-      transform: translate(50px)
+    0% { 
+      transform: translate(0px, 50px)
     }
   }
 `;

@@ -10,16 +10,16 @@ export const FieldSetContainer = styled.fieldset`
     animation: skillsMoving 0.8s infinite alternate;
    } 
   #animation { 
-    animation: skillsMoving2 0.8s infinite alternate;
+    animation: skillsMoving2 0.8s infinite alternate-reverse;
    } 
   @keyframes skillsMoving { 
     100% { 
-      transform: translate(3px, 1px)
+      transform: translate(3px)
     }
   }
   @keyframes skillsMoving2 { 
     100% { 
-      transform: translate(1px, 3px)
+      transform: translate(3px)
     }
   }
 `;

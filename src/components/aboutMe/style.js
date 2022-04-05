@@ -16,4 +16,15 @@ export const LegendFieldSet = styled.legend`
 export const BodyAboutMe = styled.div`
   color: #FFF;
   display: block;
+  width: 100%;
+  height: 100%;
+
+  #animationAbout { 
+    animation: animationAbout 1s alternate;
+  } 
+  @keyframes animationAbout { 
+    75% { 
+      transform: translate(10px)
+    }
+  }
 `;
