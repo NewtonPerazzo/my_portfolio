@@ -8,7 +8,7 @@ export default function Title() {
   const handleLanguage = (event) => {
     localStorage.setItem(I18N_STORAGE_KEY, event.target.value);
     setLanguage(event.target.value);
-    window.location = window.location;
+    window.location.reload();
   };
 
   console.log(language)
