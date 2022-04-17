@@ -20,11 +20,15 @@ export const TitleTop = styled.div`
   }
 `
 
-export const TitleText = styled.p`
+export const TitleText = styled.div`
     text-align: center;
     color: #FFF;
     font-size: 18px;
     position: relative;
+
+    @media screen and (max-width: 390px) {
+        font-size: 14px;
+    }
 `
 
 export const SelectCustom = styled.select`
@@ -36,6 +40,10 @@ export const SelectCustom = styled.select`
     border: 0.5px solid chartreuse;
     border-radius: 5px;
     outline: none;
+
+    @media screen and (max-width: 390px) {
+        width: 60px;
+    }
 `
 
 export const OptionCustom = styled.option`

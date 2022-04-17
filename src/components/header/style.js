@@ -38,4 +38,9 @@ export const Content = styled.div`
   height: 100%;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 390px) {
+    display: grid;
+    justify-content: center;
+  }
 `;

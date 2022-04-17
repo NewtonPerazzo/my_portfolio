@@ -11,8 +11,6 @@ export default function Title() {
     window.location.reload();
   };
 
-  console.log(language)
-
   return (
     <TitleTop>
       <Content>
