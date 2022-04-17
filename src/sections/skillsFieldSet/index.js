@@ -1,5 +1,5 @@
-import Skill from "../skill";
-import {  LegendFieldSet } from "../aboutMe/style";
+import Skill from "../../components/skill";
+import {  LegendFieldSet } from "../../components/aboutMe/style";
 import { SkillContainer, FieldSetContainer } from "./style";
 import { i18n } from '../../utils/translate/i18n';
 

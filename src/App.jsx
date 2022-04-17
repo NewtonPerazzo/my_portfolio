@@ -1,6 +1,6 @@
-import Home from './components/home'
+import Home from './sections/home'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from './components/header';
+import Header from './sections/header';
 import "./App.css";
 
 function App() {

@@ -21,11 +21,21 @@ export const HeaderContainer = styled.header`
   }
 `;
 
-export const TitleHeader = styled.p`
+export const TitleHeader = styled.div`
   color: rgb(6, 184, 255);
   font-size: 24px;
   display: flex;
   align-items: center;
+`;
+
+export const NameHeader = styled.p`
+  font-size: 32px;
+  
+  @media screen and (max-width: 376px) {
+    width: 140px;
+    display: grid;
+    justify-items: center;
+  }
 `;
 
 export const ImageHeader = styled.img`

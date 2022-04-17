@@ -1,5 +1,5 @@
 import AboutMe from "../aboutMe";
-import FieldsetSkills from "../skillsFieldSet";
+import FieldsetSkills from "../../sections/skillsFieldSet";
 import { 
   Container,
   ContainerGrid, 

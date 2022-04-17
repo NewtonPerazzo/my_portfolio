@@ -20,7 +20,7 @@ export const TitleTop = styled.div`
   }
 `
 
-export const TitleText = styled.div`
+export const TitleText = styled.p`
     text-align: center;
     color: #FFF;
     font-size: 18px;

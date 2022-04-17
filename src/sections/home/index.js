@@ -1,6 +1,6 @@
 import { Container } from "./style.js";
 import Title from "../title";
-import SkillsAboutMe from "../bodyContent";
+import SkillsAboutMe from "../../components/bodyContent";
 
 function Home() {
 
